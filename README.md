@@ -12,7 +12,7 @@ The program uses a partition of 70% for training the model, and the rest for tes
 The method for comparing the true labels with the predicted labels is a confusion matrix (confus.py).</br>
 
 <h3>Usage:</h3> 
-python3 arbol_programa.py <database> <epsilon> </br>
+<br>python3 arbol_programa.py database epsilon </br>
 Example: python3 arbol_programa.py OCR_14x14 0.2 </br>
 
 <h3>Output: </h3>
