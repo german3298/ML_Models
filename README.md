@@ -23,12 +23,13 @@ Ite (%) = confidence interval (Ete(%) + E, Ete(%) - E) </br>
 Asuming that E it's: E = 1.96*sqrt((Ete*(1-Ete))/Nºsamples) </br>
 
 <h3>Given databases: </h3>
-1-OCR_14x14:</br>
-		1000 samples = 1000 rows (handwritten digits).</br>
-		Digits from 0 to 9 -> 10 labels</br>
-		1 sample -> 196 columns (features) + last column (label) -> 197 columns</br>
-		1 sample -> normalized image 14x14 (196 columns)</br>
+1-OCR_14x14:</br> 
+		&nbsp&nbsp&nbsp1000 samples = 1000 rows (handwritten digits).</br>
+		&nbsp&nbsp&nbspDigits from 0 to 9 -> 10 labels</br>
+		&nbsp&nbsp&nbsp1 sample -> 196 columns (features) + last column (label) -> 197 columns</br>
+		&nbsp&nbsp&nbsp1 sample -> normalized image 14x14 (196 columns)</br>
 2-expressions:</br>
-		225 facial expressions represented as 4096-D arrays and classified in 5 labels (1-surprise, 2-happiness, 3-sadness, 4-anguish, 5-disgust).</br>
+		&nbsp&nbsp&nbsp225 facial expressions represented as 4096-D arrays and classified in 5 labels (1-surprise, 2-happiness, 3-sadness, 4-anguish, 5-disgust).</br>
 
+<h3>Note: </h3>
 I know there must be better ways to do the loops or certain operations, but it was my first Python script and I programmed it mostly to understand the model.</br>
